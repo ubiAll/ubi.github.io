@@ -1,6 +1,46 @@
+<!DOCTYPE html>
 <html>
-	<body>
-		<h3>Реферальные ссылки:</h3><br>
-		<a href="https://goo.gl/MXfJwA"><strong>Bitsdaq</strong></a> платформа для азиатских инвесторов от Bittrex <br>
-	</body>
-<html>
+<head>
+  <meta charset='utf-8'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div>
+	<h1>Unconditional Basic Income (UBI)</h1>
+	<table>
+			<td>
+				User Count  <b id="userCount">   </b>
+			</td>
+		</tr>
+		<tr>
+			<td>Total Suply </td> <td align="right"><b id="totalSupply"> </b></td><td> </td>
+		</tr>
+		<tr>
+			<td>Stop amount </td> <td align="right"><b id="avrAmount">  </b></td><td> сумма выше которой % не давать</td>
+		</tr>
+	</table>
+	<br>
+	<table>
+		<tr>
+			<td>Current Price</td> <td><b id="curPrice"></b></td>
+		</tr>
+		<tr>
+			<td>Bonus Price</td> <td><b id="bnsPrice"></b></td>
+		</tr>
+	</table>
+	<br><br>
+	<table>
+		<tr>
+			 <td>maxPeriodVolume</td><td>minPeriodVolume</td> <td>Current Period Volume</td>
+		</tr>
+		<tr>
+			<td><b id="maxVol"> </b></td><td><b id="minVol"> </b></td><td><b id="curVol"> </b></td>
+		</tr>
+	</table>
+
+	<div id="status">
+	</div>
+  </div>
+</body>
+</html>
